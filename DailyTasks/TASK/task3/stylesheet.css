@@ -63,7 +63,7 @@ img{
     color: #fff;
 }
 
-body {
+body{
     font-family: Arial, sans-serif;
     background-color: #1f1f1f; 
     color: #fff; 
@@ -81,7 +81,7 @@ body {
     width: 320px;
 }
 
-.box {
+.box{
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -95,7 +95,7 @@ body {
     width: 550px;
 }
 
-.icon {
+.icon{
     width: 20px;
     height: 20px;
     margin-right: 8px; 
@@ -103,14 +103,14 @@ body {
     
 }
 
-.new-page {
+.new-page{
     background-color: transparent;
     border: 1px solid #555; 
     justify-content: center;
     color: #888; 
 }
 
-.new-page:hover {
+.new-page:hover{
     background-color: #3f3f3f;
     color: #fff; 
     border-color: #fff;   

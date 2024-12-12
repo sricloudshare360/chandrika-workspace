@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeting Button</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            color: white;
+            background-color: rgb(57, 188, 240);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p>Click the button below to receive a greeting message.</p>
+    <button onclick="showGreeting()">Click Me</button>
+    <p id="greeting"></p>
+
+    <script>
+        function showGreeting() {
+            const greetingElement = document.getElementById('greeting');
+            greetingElement.textContent = "Hello! Have a great day!";
+        }
+    </script>
+</body>
+</html>
